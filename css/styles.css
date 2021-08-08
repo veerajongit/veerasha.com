@@ -26,6 +26,7 @@ p {
 	position: fixed;
 	width: 100%;
 	background: #222;
+	opacity: 0.9;
 	z-index: 10;
 }
 .header .navbar-brand {
@@ -87,7 +88,7 @@ h3 {
 }
 .page-section.intro {
 	color: #FEFEF2;
-	background: url('../photogallery/gif.gif') center center no-repeat;
+	background: url('../photogallery/retro18.jpg') center center no-repeat;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
