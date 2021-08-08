@@ -87,12 +87,13 @@ h3 {
 }
 .page-section.intro {
 	color: #FEFEF2;
-	background: url('../images/bg1_1920_web3.jpg') center center no-repeat;
+	background: url('../photogallery/gif.gif') center center no-repeat;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 .headline, .introbuttons {
 	max-width: 600px;
-	margin-right: auto;
+	/* margin-right: auto; */
 	margin-left: auto;
 	text-align: center;
 }
@@ -104,23 +105,19 @@ h3 {
 	text-align: center;
 }
 .page-section#story {
-	background: url('../images/bg2_1920_web.jpg') bottom center no-repeat;
+	background: url('../photogallery/retro14.jpg') bottom center no-repeat;
 	background-size: cover;
 }
 .page-section#reception {
-	background: url('../images/bg4_1920_web.jpg') bottom center no-repeat;
+	background: url('../photogallery/retro17.jpg') bottom center no-repeat;
 	background-size: cover;
 }
 .page-section#rsvp {
-	background: url('../images/bg6_1920_web.jpg') center center no-repeat;
-	background-size: cover;
-}
-.page-section#registry {
-	background: url('../images/bg5_1920_web.jpg') bottom center no-repeat;
+	background: url('../photogallery/retro17.jpg') center center no-repeat;
 	background-size: cover;
 }
 .page-section#photos {
-	background: url('../images/bg7_1920_web.jpg') top center no-repeat;
+	background: url('../photogallery/retro16.jpg') top center no-repeat;
 	background-size: cover;
 }
 .btn {
