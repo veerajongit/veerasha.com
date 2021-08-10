@@ -54,8 +54,8 @@ p {
 	font-family: 'Amatic SC', cursive, serif;
 }
 .intro h1 {
-	font-size: 9em;
-	margin: 150px 0 40px 0;
+	font-size: 9rem;
+	margin: 10vh 0 20px 0;
 }
 .page-section h1 span {
 	font-weight: 200;
@@ -88,7 +88,7 @@ h3 {
 }
 .page-section.intro {
 	padding: 0px;
-	height: 90vh;
+	height: 85vh;
 	min-height: 0px;
 }
 .headline, .introbuttons {
@@ -348,7 +348,7 @@ hr {border-color: #ddd;}
 		float: right;
 	}
 	#myVideo{
-		height: 90vh;
+		height: 85vh;
 		object-fit:cover;
 		object-position:left;
 	}
@@ -370,7 +370,7 @@ hr {border-color: #ddd;}
 		column-count: 1;
 	}
 	#myVideo{
-		height: 90vh;
+		height: 85vh;
 		object-fit:cover;
 		object-position:left;
 	}
@@ -385,7 +385,7 @@ hr {border-color: #ddd;}
 	}
 
 	#myVideo{
-		height: 90vh;
+		height: 85vh;
 		object-fit:cover;
 		object-position:left;
 	}
