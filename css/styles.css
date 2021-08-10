@@ -90,6 +90,10 @@ h3 {
 	padding: 0px;
 	height: 85vh;
 	min-height: 0px;
+	background-image: url('../photogallery/retro18.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 .headline, .introbuttons {
 	top: 0px;
