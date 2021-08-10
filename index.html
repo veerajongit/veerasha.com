@@ -40,7 +40,7 @@
 <!--/.header-->
 
 <div class="page-section intro">
-	<video autoplay muted id="myVideo" playsinline>
+	<video autoplay muted id="myVideo" playsinline onplay="$(this).removeClass('width-0')" class="width-0">
 		<source src="photogallery/movie.mp4" type="video/mp4">
 	</video>
 	<div class="headline">

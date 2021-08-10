@@ -439,3 +439,7 @@ hr {border-color: #ddd;}
 #myVideo{
 	width: 100%;
 }
+
+.width-0{
+	width: 2px !important;
+}
