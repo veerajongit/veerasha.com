@@ -367,11 +367,16 @@ hr {border-color: #ddd;}
 	/*.header {
 		position: relative;
 	}                       Still need to address too-large top nav in mobile */
+	.page-section.intro{
+		min-height: 640px;
+	}
 	.page-section {
-		padding: 0 0 50px 0;
+		padding: 0 0 0 0;
+		min-height: min-content;
 	}
 	.page-section div.bubble {
 		border-radius: 0;
+		min-height: 640px;
 	}
 	.page-section h1 {
 		font-size: 5em;
