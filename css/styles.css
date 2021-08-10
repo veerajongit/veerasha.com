@@ -87,17 +87,20 @@ h3 {
 	color: darkgray;
 }
 .page-section.intro {
-	color: #FEFEF2;
-	background: url('../photogallery/retro18.jpg') center center no-repeat;
-	background-size: cover;
-	background-repeat: no-repeat;
 	padding: 0px;
+	height: 90vh;
+	min-height: 0px;
 }
 .headline, .introbuttons {
-	max-width: 600px;
-	/* margin-right: auto; */
-	margin-left: auto;
-	text-align: center;
+	top: 0px;
+    margin-left: auto;
+    position: absolute;
+    background: black;
+    text-align: center;
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    height: inherit;
 }
 
 .headline > h1 {
@@ -344,6 +347,11 @@ hr {border-color: #ddd;}
 	.navbar-nav {
 		float: right;
 	}
+	#myVideo{
+		height: 90vh;
+		object-fit:cover;
+		object-position:left;
+	}
 }
 
 @media (max-width: 1024px) {
@@ -361,6 +369,11 @@ hr {border-color: #ddd;}
 		-webkit-column-count: 1;
 		column-count: 1;
 	}
+	#myVideo{
+		height: 90vh;
+		object-fit:cover;
+		object-position:left;
+	}
 }
 
 @media (max-width: 540px) {
@@ -368,8 +381,15 @@ hr {border-color: #ddd;}
 		position: relative;
 	}                       Still need to address too-large top nav in mobile */
 	.page-section.intro{
-		min-height: 640px;
+		/* min-height: 640px; */
 	}
+
+	#myVideo{
+		height: 90vh;
+		object-fit:cover;
+		object-position:left;
+	}
+
 	.page-section {
 		padding: 0 0 0 0;
 		min-height: min-content;
@@ -410,4 +430,8 @@ hr {border-color: #ddd;}
 		margin-left: 0;
 		width: 100%;
 	}
+}
+
+#myVideo{
+	width: 100%;
 }
